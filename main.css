@@ -37,3 +37,12 @@ body {
 .bank-list {
   color: aqua;
 }
+
+@media only screen and (min-width:375px){
+  .bank-form {
+    padding-left: 65px;
+  }
+  .title {
+    padding-left: 66px;
+  }
+}
