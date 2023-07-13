@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/main.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <h1 class="title">Bank cash change</h1>
+  
+  <form class="bank-form js-bank-form" method="POST" autocomplete="off">
+
+    <input class="bank-input js-bank-input" type="text" name="user cash" aria-label="user cash" placeholder="summani kiriting"
+    value="">
+
+     <select class="bank-select js-bank-list" name="cashs">
+      <option class="usd" value="11600">USD</option>
+      <option class="euro" value="12000">EURO</option> 
+      <option class="rubl" value="150">RUBL</option> 
+    </select> 
+
+    
+    <button class="btn" type="submit">submit</button>
+    <p class="bank-list"></p>
+
+  </form>
+
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(60, 42, 150);
+}
+
+.title {
+ padding-left: 500px;
+}
+.bank-form {
+  padding-top: 100px;
+  padding-left: 500px;
+  border-bottom: 1px solid #000;
+}
+
+.bank-input {
+  display: block;
+  margin-bottom: 20px;
+  padding: 25px;
+  color: aliceblue;
+  background-color: #2be2a2;
+  outline: none;
+  border: none;
+}
+
+.bank-select {
+  margin-right: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #e22b68;
+}
+
+.btn {
+  padding: 11px;
+  border: none;
+  background-color: rgb(180, 253, 121);
+}
+
+.bank-list {
+  color: aqua;
+}
